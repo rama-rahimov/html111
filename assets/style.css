@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+ .container{
+   height: 200vh; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: palegoldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+
+}
+
+.logo-section{
+    margin-left: 5px;
+    font-size: 24px;
+
+}
+
+.header > .nav-links a{
+    color: black;
+}
+ .nav-links{
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+
+ }
+
+ .nav-links a:hover{
+    color: green;
+    transform: translateY(5px);
+    transition: .7s ease;
+ }
+
+ .selection{
+    display: flex;
+    height: 80%;
+    text-align: center;
+ }
+ .left-side{
+  flex-basis: 30%;
+  background-color: aquamarine;
+ }
+ .metn{
+   flex: 1;
+   background-color: bisque;
+ }
+ .right-side{
+   flex-basis: 30%;
+   background-color:mediumslateblue ;
+
+ }
+
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background-color:black;
+    color: white;
+
+ }
+ .footer a:hover{
+    color: white;
+    transform: translateY(5px);
+    transition: .7s ease;
+ }
+ .link{
+    color:lightcoral;
+ }
+
+ nav{
+    display: flex;
+    flex-direction: column;
+ }
